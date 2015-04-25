@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TuneQ</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bar_main">BarMain</string>
+    <string name="title_activity_drink__order">Drink_Order</string>
+    <string name="title_activity_main_activity2">MainActivity2Activity</string>
+    <string name="title_activity_food__order">Food_Order</string>
+    <string name="title_activity_ordered_drinks">ordered_drinks</string>
+    <string name="title_activity_ordered_food">ordered_food</string>
+    <string name="title_activity_past_djs">PastDjs</string>
+    <string name="title_activity_second_page">second_page</string>
+    <string name="title_activity_sing_up">SingUp</string>
+    <string name="title_activity_song__request">Song_Request</string>
+    <string name="title_activity_song_que">SongQue</string>
+    <string name="title_activity_special__request">Special_Request</string>
+    <string name="title_activity_submitted_song">submittedSong</string>
+    <string name="drink_prompt">drinks</string>
+</resources>

@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.mikecioffi.test.BarMain"
+    android:id="@+id/BarMain">
+
+    <View android:id="@+id/fakeView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/fakeView"
+        android:layout_alignParentLeft="true"
+
+
+        android:text="Request A Song"
+        android:textColor="#00ECFC"
+
+        android:id="@+id/request"
+        android:layout_alignBottom="@+id/spcReq"
+        android:layout_alignTop="@+id/spcReq" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View Song Queue"
+        android:textColor="#00ECFC"
+
+        android:id="@+id/songQue2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/food_order_back"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/fakeView"
+        android:layout_alignParentRight="true"
+        android:textColor="#00ECFC"
+
+        android:text="Special Requests"
+        android:id="@+id/spcReq"
+        android:layout_above="@+id/songQue2"
+        android:layout_alignRight="@+id/songQue2"
+        android:layout_alignEnd="@+id/songQue2" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00ECFC"
+
+        android:text="View Past DJ&apos;s"
+        android:id="@+id/pastDJ"
+        android:layout_below="@+id/songQue2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00ECFC"
+
+        android:text="Order Drinks"
+        android:id="@+id/orderdrinks"
+        android:layout_below="@+id/pastDJ"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#00ECFC"
+
+        android:text="Order Food"
+        android:id="@+id/drinks"
+        android:layout_below="@+id/orderdrinks"
+        android:layout_centerHorizontal="true" />
+    <View
+        android:background="#00ECFC"
+        android:layout_width="fill_parent"
+        android:layout_height="10px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button2" />
+
+
+
+
+
+
+</RelativeLayout>

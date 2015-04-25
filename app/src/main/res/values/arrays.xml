@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_of_drinks">listofdrinks
+
+        <item>Select a Drink</item>
+        <item>Coke</item>
+        <item>Pepsi</item>
+        <item>Lemonade</item>
+        <item>Water</item>
+
+    </string-array>
+
+
+    <string-array name="list_of_foods">listoffood
+
+
+        <item>Select a Menu Item</item>
+        <item>Burger</item>
+        <item>Burrito</item>
+        <item>Hotdog</item>
+        <item>Chips</item>
+
+
+    </string-array>
+
+
+</resources>
